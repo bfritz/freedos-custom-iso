@@ -1,4 +1,8 @@
-# Modify FreeDOS ISO to run DOS .exe files (BIOS updates, diagnostics, etc.)
+# Build Custom [FreeDOS](http://www.freedos.org/) Boot ISO
+
+Modify FreeDOS ISO image to run DOS .exe files like BIOS updates, HDD diagnostics, etc.
+
+## Instructions
 
 Grab the repo:
 
@@ -43,5 +47,6 @@ Test with:
 qemu-system-i386 -cdrom freedos_custom.iso
 ```
 
-Based on tummy.com (Sean Reifschneider)'s article at:
-http://www.tummy.com/blogs/2008/09/21/using-freedos-cd-for-bios-updates/
+## Credit
+
+Based on Sean Reifschneider's [article on tummy.com](http://www.tummy.com/blogs/2008/09/21/using-freedos-cd-for-bios-updates/).
