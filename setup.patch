@@ -1,0 +1,12 @@
+diff -ur image.orig/setup.bat image/setup.bat
+--- image.orig/setup.bat	2015-10-15 15:57:21.151117301 -0400
++++ image/setup.bat	2015-10-15 15:56:11.451073445 -0400
+@@ -15,6 +15,8 @@
+ cd\
+ set fdosroot=%_CWD%FreeDOS\Setup
+ 
++goto end
++
+ rem Time to select the language
+ pbatch %fdosroot%\NLS\backgrou.men -fh7 -ft7 -x1 -y1 -r0 -s0
+ pbatch %fdosroot%\NLS\lang.txt -fh1 -ft15 -x2 -y2
