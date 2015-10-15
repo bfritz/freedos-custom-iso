@@ -36,5 +36,12 @@ Burn the ISO, for example with `wodim`:
 wodim -v -data -eject freedos_custom.iso
 ```
 
+Test with:
+
+```sh
+# sudo pacman -S qemu
+qemu-system-i386 -cdrom freedos_custom.iso
+```
+
 Based on tummy.com (Sean Reifschneider)'s article at:
 http://www.tummy.com/blogs/2008/09/21/using-freedos-cd-for-bios-updates/
